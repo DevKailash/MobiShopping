@@ -1,0 +1,60 @@
+<header>
+  <h3 class="cmHeader"><img alt="logo" src="assets/img/shopping-cart.png"> Mobi</h3>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-3" *ngFor="let product of products">
+                <div class="p-store-card ">
+                  <div class="p-store-list-img">
+                    <img [src]="product.image" alt="product" class="p-store-list-img" />
+                  </div>
+                  <div text-wrap>
+                    <h5 class="p-store-list-brand"> {{product.brand}} <p>{{product.OfferText}} off</p></h5>
+                    <h5 class="p-store-list-name"> {{ (product.name.length>38)? (product.name | slice:0:38)+'..':(product.name)}}</h5>
+                  </div>
+                  <div class="p-store-list-div">
+                    <h5 class="p-store-list-price"><p>MRP </p>{{product.mrf}}</h5>
+                   
+                    <h5 class="p-store-list-price"> <p>Price </p> {{product.price}}</h5>
+                  </div>
+                  <div class="p-store-list-div">
+                      <button class="add-cart" (click)="selectProducts(product,'add')">+</button>
+                      <p class="add-cart-value">{{product.Quantity}}</p>
+                      <button class="add-cart" (click)="selectProducts(product,'minus')">-</button>
+                  </div>
+                  <div>
+                   <button class="add-cart-btn">ADD CART</button>
+                  </div>
+                  
+                </div>
+        </div>
+    </div>
+</div>
+<footer>
+ <div class="cmFooter">
+   <div class="f2">
+    <div class="cmdiv">
+      Qty {{quantity}}
+     </div><br>
+     <div class="cmdiv">
+       Total {{totalAmout}}
+    </div>
+   </div>
+   <div class="f2 btn">
+    <button class="add-cart-btn" id="myBtn">CHECKOUT</button>
+   </div>
+   
+ </div>
+</footer>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="close" class="close">&times;</span>
+    <p>Total price: {{totalAmout}}</p>
+    <p>Transaction successful</p>
+  </div>
+
+</div>

@@ -1,0 +1,73 @@
+[{
+    "image": "https://i5.walmartimages.ca/images/Thumbnails/768/943/6000199768943.jpg",
+    "name": "Gillette Fusion5 Men's Razor Blades",
+    "brand":"Gillette",
+    "Quantity":0,
+    "mrf":"400",
+    "OfferText":"8%",
+    "price": "350",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/101/078/6000198101078.jpg",
+    "name": "Live Clean Fresh Water Liquid Hand Soap",
+    "brand":"Live Clean",
+    "Quantity":0,
+    "mrf":"100",
+    "OfferText":"20%",
+    "price": "60",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/130/464/999999-62600130464.jpg",
+    "name": "Band-Aid Fabric Bandages, Assorted",
+    "brand":"Band-Aid",
+    "Quantity":0,
+    "mrf":"200",
+    "OfferText":"15%",
+    "price": "150",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/_91/183/91183.jpg",
+    "name": "Vicks Vapodrops Cherry Flavour",
+    "brand":"Vicks",
+    "Quantity":0,
+    "mrf":"100",
+    "OfferText":"8%",
+    "price": "90",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/200/025/999999-41679200025.jpg",
+    "name": "BOOST® Diabetic Vanilla Nutritional Supplement Drink",
+    "brand":"BOOST®",
+    "Quantity":0,
+    "mrf":"400",
+    "OfferText":"8%",
+    "price": "360",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/000/016/011250000016.jpg",
+    "name": "Fisherman's Friend Sucrose Free Cough Suppressant Lozenges",
+    "brand":"Fisherman's",
+    "Quantity":0,
+    "mrf":"200",
+    "OfferText":"10%",
+    "price": "180",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/919/318/6000197919318.jpg",
+    "name": "Nicorette Gum, Fresh Fruit, 4mg",
+    "brand":"Nicorette",
+    "Quantity":0,
+    "mrf":"500",
+    "OfferText":"30%",
+    "price": "350",
+    "description": ""
+}, {
+    "image": "http://i5.walmartimages.ca/images/Thumbnails/_91/194/91194.jpg",
+    "name": "Vicks Vaporub Ointment",
+    "brand":"Vicks",
+    "Quantity":0,
+    "mrf":"100",
+    "OfferText":"8%",
+    "price": "80",
+    "description": ""
+}]
